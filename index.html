@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <title>Pastry House</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5deT0Ol41F9w1bA9Qez01l53ZYwctphKeNw&usqp=CAU" alt="#" class="img-logo">
+            </a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Store</a></li>
+            </ul>
+            <div class="nav-container">
+                <div class="phone-box">
+                    <span><i class="fas fa-phone"></i></span>
+                    <p>+447931657144</p>
+                </div>
+                <div class="cart-box">
+                    <span><i class="fas fa-shopping-cart"></i></span>
+                    <p>
+                        <span>2</span>
+                         items - $
+                        <span>10.49</span>
+                    </p>
+                </div>
+            </div>
+        </nav>
+        <div class="hero">
+            <div class="hero-box">
+                <div class="hero-title">
+                    <h1>Welcome To <span> Grandma's</span></h1>
+                    <button class="hero-btn">EXPLORE</button>
+                </div>
+            </div>
+                
+        </div>
+    </header>
+    <section class="about-us-container">
+        <div class="about-container">
+            <div class="row">
+                <div class="text">
+                    <h1>About 
+                        <strong class="text-us">Us</strong>
+                    </h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente esse voluptatum minima tempora aut sed provident blanditiis. Facilis necessitatibus possimus praesentium quam debitis temporibus, excepturi atque illo eveniet officiis ullam!</p>
+                    <button class="about-btn">EXPLORE</button>
+                </div>
+                    <div class="img-container">
+                        <img src="https://github.com/JS-Beginners/filter-project/blob/main/img/sweets-1.jpeg?raw=true" alt="sweets" class="img-fluid">
+                    </div>
+            </div>
+        </div> 
+    </section>
+
+
+    <section class="store">
+     <!-- store -->
+      <div class="storeContainer">
+          <div class="store-row">
+              <div class="store-title">
+                <h1 class="h1-store">
+                  Our
+                  <strong class="store-header">Store</strong>
+                </h1>
+              </div>
+              <div class="store-btns">
+                <a href="#" class="all-btn btn filter-btn" data-filter="all">ALL</a>
+                <a href="#" class="cakes-btn btn filter-btn" data-filter="cakes">CAKES</a>
+                <a href="#" class="cupcakes-btn btn filter-btn" data-filter="cupcakes">CUPCAKES</a>
+                <a href="#" class="sweets-btn btn filter-btn" data-filter="sweets">SWEETS</a>
+                <a href="#" class="doughnuts-btn btn filter-btn" data-filter="doughnuts">DOUGHNUTS</a>
+              </div>
+              <div class="search">
+                <span class="search-box">
+                  <i class="fas fa-search"></i>
+                </span>
+                <div>
+                  <input type="text" class="search-text" placeholder="item...">
+                </div>
+              </div>
+              <div class="box-row">
+
+              <div class="box sweets" data-item="sweets">
+                <div class="img-store">
+                    <img src="https://github.com/JS-Beginners/filter-project/blob/main/img/sweets-1.jpeg?raw=true" alt="sweet" class="box-img">
+                  </div>
+                  <div class="box-body">
+                    <h5 class="store-item-name">Sweet item</h5>
+                    <h5 class="store-item-value">
+                      £
+                      <strong class="store-item-value">5</strong>
+                    </h5>
+                  </div>
+                </div>
+
+                  <div class="box cupcakes" data-item="cupcakes">
+                    <div class="img-store">
+                      <img src="https://github.com/JS-Beginners/filter-project/blob/main/img/cupcake-1.jpeg?raw=true" alt="sweet" class="box-img">
+                    </div>
+                    <div class="box-body">
+                      <h5 class="store-item-name">Cupcake item</h5>
+                      <h5 class="store-item-value">
+                        £
+                        <strong class="store-item-value">5</strong>
+                      </h5>
+                    </div>
+                  </div> 
+
+                <div class="box cakes"  data-item="cakes">
+                  <div class="img-store">
+                    <img src="https://github.com/JS-Beginners/filter-project/blob/main/img/cake-1.jpeg?raw=true" alt="sweet" class="box-img">
+                  </div>
+                  <div class="box-body">
+                    <h5 class="store-item-name">Cake item</h5>
+                    <h5 class="store-item-value">
+                      £
+                      <strong class="store-item-value">5</strong>
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="box doughnuts" data-item="dougnuts">
+                  <div class="img-store">
+                    <img src="https://github.com/JS-Beginners/filter-project/blob/main/img/doughnut-1.jpeg?raw=true" alt="sweet" class="box-img">
+                  </div>
+                  <div class="box-body">
+                    <h5 class="store-item-name">Dougnut item</h5>
+                    <h5 class="store-item-value">
+                      £
+                      <strong class="store-item-value">5</strong>
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="box sweets" data-item="sweets">
+                  <div class="img-store">
+                    <img src="https://github.com/JS-Beginners/filter-project/blob/main/img/sweets-2.jpeg?raw=true" alt="sweet" class="box-img">
+                  </div>
+                  <div class="box-body">
+                    <h5 class="store-item-name">Sweet item</h5>
+                    <h5 class="store-item-value">
+                      £
+                      <strong class="store-item-value">10</strong>
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="box cupcakes" data-item="cupcakes">
+                  <div class="img-store">
+                    <img src="https://github.com/JS-Beginners/filter-project/blob/main/img/cupcake-2.jpeg?raw=true" alt="sweet" class="box-img">
+                  </div>
+                  <div class="box-body">
+                    <h5 class="store-item-name">Cupcake item</h5>
+                    <h5 class="store-item-value">
+                      £
+                      <strong class="store-item-value">10</strong>
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="box cakes" data-item="cakes">
+                  <div class="img-store">
+                    <img src="https://github.com/JS-Beginners/filter-project/blob/main/img/cake-2.jpeg?raw=true" alt="sweet" class="box-img">
+                  </div>
+                  <div class="box-body">
+                    <h5 class="store-item-name">Cake item</h5>
+                    <h5 class="store-item-value">
+                      £
+                      <strong class="store-item-value">10</strong>
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="box doughnuts" data-item="doughnuts">
+                  <div class="img-store">
+                    <img src="https://github.com/JS-Beginners/filter-project/blob/main/img/doughnut-2.jpeg?raw=true" alt="sweet" class="box-img">
+                  </div>
+                  <div class="box-body">
+                    <h5 class="store-item-name">Dougnut item</h5>
+                    <h5 class="store-item-value">
+                      £
+                      <strong class="store-item-value">10</strong>
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="box sweets" data-item="sweets">
+                  <div class="img-store">
+                    <img src="https://github.com/JS-Beginners/filter-project/blob/main/img/sweets-3.jpeg?raw=true" alt="sweet" class="box-img">
+                  </div>
+                  <div class="box-body">
+                    <h5 class="store-item-name">Sweet item</h5>
+                    <h5 class="store-item-value">
+                      £
+                      <strong class="store-item-value">10</strong>
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="box cupcakes">
+                  <div class="img-store" data-item="cupcakes">
+                    <img src="https://github.com/JS-Beginners/filter-project/blob/main/img/cupcake-3.jpeg?raw=true" alt="sweet" class="box-img">
+                  </div>
+                  <div class="box-body">
+                    <h5 class="store-item-name">Cupcake item</h5>
+                    <h5 class="store-item-value">
+                      £
+                      <strong class="store-item-value">10</strong>
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="box cakes" data-item="cakes">
+                  <div class="img-store">
+                    <img src="https://github.com/JS-Beginners/filter-project/blob/main/img/cake-3.jpeg?raw=true" alt="sweet" class="box-img">
+                  </div>
+                  <div class="box-body">
+                    <h5 class="store-item-name">Cake item</h5>
+                    <h5 class="store-item-value">
+                      £
+                      <strong class="store-item-value">10</strong>
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="box doughnuts" data-item="doughnuts">
+                  <div class="img-store">
+                    <img src="https://github.com/JS-Beginners/filter-project/blob/main/img/doughnut-3.jpeg?raw=true" alt="sweet" class="box-img">
+                  </div>
+                  <div class="box-body">
+                    <h5 class="store-item-name">Dougnut item</h5>
+                    <h5 class="store-item-value">
+                      £
+                      <strong class="store-item-value">10</strong>
+                    </h5>
+                  </div>
+                </div>
+
+          </div>
+      </div>
+      
+  </section> 
+  <!--end of store items -->
+
+
+
+<script src="app.js"></script>
+</body>
+</html>

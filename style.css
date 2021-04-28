@@ -1,0 +1,393 @@
+*{
+    box-sizing: border-box;
+   
+}
+body {
+    font-family: "Kaushan Script", cursive;
+   
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4.5em;
+
+
+}
+
+nav ul {
+    display: flex;
+}
+nav li {
+    display: flex;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 1.5em;
+  
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(243, 149, 165);
+
+}
+
+nav a:hover {
+    color: #000;
+    transition: all .8s ease-in;
+}
+
+.nav-container {
+    display: flex;
+}
+
+
+
+.phone-box {
+    display: flex;
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+.cart-box {
+    display: flex;
+    margin: 30px;
+    border: 1px solid #000;
+    height: 2.7em;
+    width: 170px;
+    /* padding: 6px; */
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+
+.cart-box:hover {
+background-color: rgb(243, 149, 165);
+color: white;
+cursor: pointer;
+transition: all 0.1s ease-in;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.img-logo {
+    width: 3.2em;
+}
+
+
+// HERO 
+
+.hero {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto; 
+    
+}
+.hero-box {
+    background: linear-gradient(rgba(249, 228, 148, 0.5), rgba(249, 228, 148, 0.5)), url('https://github.com/JS-Beginners/filter-project/blob/main/img/headerBcg.jpeg?raw=true') center/cover fixed no-repeat;
+    min-height: calc(100vh - 76px);
+    position: relative;
+    width: 100%;
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center ;
+    background-attachment: fixed; */
+    
+}
+
+.hero-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 80vh;
+   
+}
+
+.hero-box h1 {
+    color: #fff;
+    font-size: 2.5em;
+}
+
+.hero-box span {
+  color:  rgb(243, 149, 165);
+  font-size: 1.7em;
+  font-weight: bolder;
+}
+
+.hero-btn {
+    padding: 8px;
+    background: transparent;
+    border-radius: 5px;
+    font-size: 1.6em;
+    font-family: inherit;
+    border: 4px solid #000;
+}
+
+.hero-btn:hover {
+    background:#000;
+    cursor: pointer;
+    transition: all 0.2s ease-in ;
+    color:  rgb(243, 149, 165);
+    
+}
+
+
+
+
+//sectionn
+
+.about-us-container {
+    display: flex;
+   
+    
+    
+}
+
+
+.row {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: inherit;
+    position: relative;
+    margin: 7em;
+    align-items: center;
+   
+}
+.text {
+    /* display: flex; */
+    margin: 1em;
+    margin: 2em;
+    margin: 0 auto;
+}
+.text p {
+        color:#6c757d;
+        width: 25%;
+        
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    width: 70%;
+    
+   
+}
+
+.about-btn {
+    padding: 7px;
+    background: transparent;
+    border-radius: 5px;
+    font-size: 1em;
+    font-family: inherit;
+   
+}
+.about-btn:hover {
+    background:#000;
+    cursor: pointer;
+    transition: all 0.2s ease-in ;
+    color:  rgb(243, 149, 165);
+    
+}
+.img-container {
+    position: absolute;
+    overflow: hidden;
+    cursor: pointer;
+    right: 5%;
+    margin-top: 6em;
+    margin-bottom: 5em;
+    
+    
+}
+.img-container::before {
+    content: "";
+    position: absolute;
+    top: -1.5rem;
+    left: -1.7rem;
+    width: 70%;
+    height: 100%;
+    outline: 0.5rem solid rgb(249, 228, 148);;
+    z-index: -1;
+    transition: all 1s ease-in-out;
+}
+.img-container:hover:before {
+    top: 0;
+    left: 0;
+  }
+
+
+ h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+
+}
+h1 {
+    font-size: 2em;
+}
+
+.text-us {
+    font-size: 2em;
+    color: rgb(243, 149, 165);
+}
+
+
+
+
+
+.store {
+    background-color: rgb(238, 238, 238);
+}
+
+.storeContainer {
+    background-color: rgb(238, 238, 238);
+
+
+}
+.store-title {
+ 
+}
+
+.h1-store, .store-header{
+    font-size: 2em;
+    text-align: center;
+    
+    
+}
+ .store-header {
+    color:  rgb(243, 149, 165); 
+}
+
+.btn {
+    text-decoration: none;
+    margin: 1.5em;
+    border: 1px solid #000;
+    padding: 7px;
+    border-radius: 5px;
+    
+    
+    
+
+}
+
+
+
+.btn:hover  {
+    background:#000;
+    cursor: pointer;
+    transition: all 0.2s ease-in ;
+    color:  rgb(243, 149, 165);
+
+}
+.store-btns {
+    text-align: center;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.search-text {
+    width: 100%;
+    padding: .3em;
+    border-radius: 3px;
+    font-family: inherit;
+    font-size: 1em;
+    
+}
+
+.search-box {
+   
+}
+
+.search-box {
+    background: #ef7998;
+    color: #000;
+    padding: .40em;
+}
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.box {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    width: 20%;
+    margin: 2.5em;
+}
+
+.box-img {
+    width: 100%;
+}
+
+.box-body {
+    display: flex; 
+    justify-content: space-between;
+    font-size: 1.5em;
+    padding-bottom: 20px;
+}
+
+
+.store-item-value {
+    margin-right: 10px;
+}
+
+.store-item-name {
+    margin-left: 20px;
+}
+
+.box-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.sweets {
+
+}
+
+.cupcakes {
+
+}
+
+.cakes {
+
+}
+
+.doughnuts {
+    
+}
